@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppAaz">
         <activity android:name=".HirePurchaseCalc">
+
+        </activity>
+        <activity android:name=".camera">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"></action>
                 <category android:name="android.intent.category.LAUNCHER"></category>
