@@ -34,7 +34,7 @@ public class login extends Activity {
 
                 if (username.length()==0 || password.length()==0)
                 {
-                    Toast.makeText(getApplicationContext(), "Username or Password is missing", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getBaseContext(), "Username or Password is missing", Toast.LENGTH_LONG).show();
                 }
 
             }
